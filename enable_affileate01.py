@@ -34,7 +34,7 @@ try:
                 setid = c.find('set_id').text
                 pids = c.find('pub_id').text.split(',')
                 con = pyodbc.connect(
-                    'DRIVER={SQL Server};SERVER=(local);DATABASE=mobtions;UID=sa;PWD=deepak')
+                    'DRIVER={SQL Server};SERVER=(local);DATABASE=your_database_name;UID=your-username;PWD=yourpassword')
 
                 query = con.cursor()
                 Isexit_pubid = con.cursor()
@@ -60,7 +60,7 @@ try:
                             "notice": 0
                         }
                         headers = {
-                            'API-Key': '446jh787b5711005545j4j4kvj546b465456kj54655k80990cvbc89ffg8e6c7d3d3'
+                            'API-Key': 'your-api-key'
                         }
                         response = requests.request(
                             "POST", url, headers=headers, data=payload)

@@ -18,7 +18,7 @@ try:
     cprint('Process starting please wait ...', 'yellow')
     logging.info('Process stating please wait ...')
     Advertise_SetId = 'Instal_CPI_API'
-    affise_key = '446jh787b5711005545j4j4kvj546b465456kj54655k80990cvbc89ffg8e6c7d3d3'
+    affise_key = 'your-api-key'
     addOfferId = [914961, 914962, 914963, 914964,
                   914965, 914966, 914967, 914968, 914969, 914970]
     total_id_found = len(addOfferId)
