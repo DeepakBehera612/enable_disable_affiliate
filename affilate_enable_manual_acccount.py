@@ -18,9 +18,9 @@ try:
                         format='%(levelname)s: %(asctime)s : %(message)s', datefmt='%d-%m-%Y : %H:%M:%S')
     print('Process Starting Please Wait ...')
     logging.info('Process Stating Please Wait ...')
-    affise_key = '446jh787b5711005545j4j4kvj546b465456kj54655k80990cvbc89ffg8e6c7d3d3'
+    affise_key = 'your-api-key'
     addOfferId = []
-    Advertiser_id = '5ae981f9e6ec2818358b4595'
+    Advertiser_id = 'your-adv-id'
     url = f"http://api.mobtions.affise.com/3.0/offers?advertiser[0]={Advertiser_id}&status[0]=active"
     payload = {}
     headers = {
